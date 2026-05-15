@@ -1,13 +1,12 @@
 # Radiology Data Automation & Reporting Project
 ## Overview
 
-This project automates the process of cleaning, analyzing, and reporting on radiology exam data using Python and pandas. The goal was to replace manual Excel-based workflows with a repeatable and efficient data pipeline.
+This project streamlines the analysis of radiologist follow-up data. It transforms raw clinical logs into cleaned datasets and generates automated, radiologist-specific summary reports in Excel. The goal was to replace manual Excel-based workflows with a repeatable and efficient data pipeline.
 
 ## Key Features
-Cleaned raw data by handling missing values and correcting data types
-Converted date/time fields into usable formats for analysis
-Performed exploratory data analysis (EDA) to understand patterns in exam duration
-Built aggregated reporting tables using groupby and multi-metric calculations
+Automated Cleaning: Standardizes radiologist names, date formats, and clinical codes.
+EDA: Statistical analysis of turnaround times and aftercare follow-up rates.
+Excel Automation: Python script that filters data by individual radiologist and exports formatted summary tabs automatically
 ## Generated insights such as:
 Average exam duration per radiologist
 Total exam time per radiologist
